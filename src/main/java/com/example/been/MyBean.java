@@ -1,4 +1,4 @@
-package car.example.been;
+package com.example.been;
 
 public class MyBean {
 

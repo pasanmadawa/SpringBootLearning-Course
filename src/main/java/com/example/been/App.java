@@ -1,4 +1,4 @@
-package car.example.been;
+package com.example.been;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

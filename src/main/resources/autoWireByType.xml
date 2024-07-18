@@ -5,8 +5,11 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- bean definitions here -->
-    <bean id="myBean" class="com.example.been.MyBean">
-        <property name="message" value="I am first bean"/>
+    <bean id="specification" class="com.example.autowire.type.Specification">
+        <property name="make" value="Toyota"/>
+        <property name="model" value="Prado"/>
     </bean>
+
+    <bean id="myCar" class="com.example.autowire.name.Car" autowire="byType"/>
 
 </beans>
