@@ -1,18 +1,14 @@
-package car.example.setter.injection;
-
-import car.example.setter.injection.Specification;
+package com.example.constructor.injection;
 
 public class Car {
 
     private Specification specification;
 
-
-    public void setSpecification(Specification specification){
+    public Car(Specification specification){
         this.specification = specification;
     }
 
     public void displayDetails(){
-
         System.out.println("Car details: "+ specification.toString());
     }
 }
